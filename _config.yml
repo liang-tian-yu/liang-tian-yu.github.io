@@ -105,3 +105,5 @@ deploy:
   type: 'git'
   repository: https://github.com/liang-tian-yu/liang-tian-yu.github.io
   branch: deploy
+  name: liang_tian_yu
+  email: liang_tian_yu@foxmail.com
