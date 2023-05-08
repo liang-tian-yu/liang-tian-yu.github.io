@@ -108,7 +108,7 @@ deploy:
   name: liang_tian_yu
   email: liang_tian_yu@foxmail.com
 
-# Markdown-it renderer config
+# Markdown-it renderer
 ## Repo: https://github.com/hexojs/hexo-renderer-markdown-it
 markdown:
   plugins:
@@ -122,3 +122,24 @@ markdown:
     - '@renbaoshuo/markdown-it-katex'
     - 'markdown-it-toc-done-right'
     - 'markdown-it-anchor'
+
+# feed generator
+## Repo: https://github.com/hexojs/hexo-generator-feed
+feed:
+  enable: true
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 10
+  hub:
+  content: false
+  content_limit: 100
+  content_limit_delim: '...'
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
