@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: John Doe
-language: en
+language: zh_CN
 timezone: 'Etc/GMT+8'
 
 # URL
@@ -44,14 +44,14 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: light
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -143,3 +143,16 @@ feed:
   autodiscovery: true
   template:
 
+# minimal file generator by html-minifier
+## Repo: https://github.com/hexojs/hexo-html-minifier
+html_minifier:
+  collapseBooleanAttributes: true
+  collapseWhitespace: false
+  # Ignore '<!-- more -->' https://hexo.io/docs/tag-plugins#Post-Excerpt
+  ignoreCustomComments: [ !!js/regexp /^\s*more/]
+  removeComments: true
+  removeEmptyAttributes: true
+  removeScriptTypeAttributes: false
+  removeStyleLinkTypeAttributes: false
+  minifyJS: true
+  minifyCSS: true
