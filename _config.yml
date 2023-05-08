@@ -107,3 +107,14 @@ deploy:
   branch: deploy
   name: liang_tian_yu
   email: liang_tian_yu@foxmail.com
+
+# Markdown-it renderer config
+## Repo: https://github.com/hexojs/hexo-renderer-markdown-it
+markdown:
+  plugins:
+    - 'markdown-it-sub'
+    - 'markdown-it-sup'
+    - 'markdown-it-mark'
+    - 'markdown-it-footnote'
+    - 'markdown-it-cjk-breaks'
+    - '@renbaoshuo/markdown-it-katex'
