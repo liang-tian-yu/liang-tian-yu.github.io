@@ -17,7 +17,7 @@
   "dependencies": {
     "@metalsmith/collections": "^1.3.0",
     "lodash": "^4.17.21",
-    "metalsmith": "^2.5.1"
+    "metalsmith": "^2.6.1"
   },
   "devDependencies": {
     "commander": "^10.0.1",
