@@ -617,10 +617,10 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-markdown-it@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.npmmirror.com/hexo-renderer-markdown-it/-/hexo-renderer-markdown-it-7.0.0.tgz#052e6c9dd88f5b8de7e78fef04750da28c4fe568"
-  integrity sha512-X+JDJ+FKGOvgGnJ1UW2AR13Ibltr/80IUbe2xh5u1hyCMKptAAhBHrhvRIqMR4WQuBgKOjQclyx4IHHY8u0n7w==
+hexo-renderer-markdown-it@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-markdown-it/-/hexo-renderer-markdown-it-7.1.1.tgz#30997efd6e5972056e4c37a986ab68cbe891fed9"
+  integrity sha512-BxI2j2f/l7lOgb7DiT1M4GcP/QhR8/rjMlYx4MEPog/9NTpYhbaspiVsw3tGXOsZVmu+cVgBYoeyIQsFYvv3rw==
   dependencies:
     hexo-util "^3.0.1"
     markdown-it "^13.0.1"
