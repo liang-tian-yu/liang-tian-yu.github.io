@@ -1,7 +1,8 @@
 {
-  "name": "blog",
-  "version": "0.0.0",
-  "private": true,
+  "name": "liang-tian-yu.github.io",
+  "version": "0.0.1",
+  "private": false,
+  "license": "CC-BY-NC-SA-4.0",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -15,7 +16,14 @@
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
+    "@docusaurus/plugin-content-blog": "^3.5.2",
+    "@docusaurus/plugin-content-docs": "^3.5.2",
+    "@docusaurus/plugin-content-pages": "^3.5.2",
+    "@docusaurus/plugin-debug": "^3.5.2",
+    "@docusaurus/plugin-sitemap": "^3.5.2",
+    "@docusaurus/theme-classic": "^3.5.2",
+    "@docusaurus/theme-common": "^3.5.2",
+    "@easyops-cn/docusaurus-search-local": "^0.44.5",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
